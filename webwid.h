@@ -9,14 +9,13 @@
 #include <QTimer>
 
 const QUrl BJZK("http://www.bjeea.cn/html/zk/");
-//const QUrl BJZK("file:///D:/temp/zk.htm");
 const QString FILE_ZKNEWS = "/.zknews.txt";
 const QString all_news_selector(".newslist ul");
 const QString date_selector(".time");
 const QString msg_selector(".tit");
 const int NEWS_LIMIT(11);                  // get the lastest 11 pieces of news
-//const int RELOAD_INTERVAL(15 * 60 * 1000); // 15 minuties
-const int RELOAD_INTERVAL(20 * 1000);
+const int RELOAD_INTERVAL(15 * 60 * 1000); // 15 minuties
+//const int RELOAD_INTERVAL(20 * 1000);
 
 namespace Ui {
 class WebWid;

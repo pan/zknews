@@ -9,7 +9,7 @@ from the website of Beijing Educational and Examinations Authority.
 
 ## platforms
 The application is written in Qt/C++ and can be run on all platforms supported
-by Qt[1]. This includes Windows, Linux/X11 and OS X.
+by [Qt][1]. This includes Windows, Linux/X11 and OS X.
 
 [1]: http://qt.io "Qt"
 
